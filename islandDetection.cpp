@@ -1,4 +1,4 @@
-// island detection matter...
+// island detection problem...
 // in the given N * M array, ground element is represented as 1 while water element is represented as 0
 // find out the sizes of islands in the array
 
@@ -77,7 +77,7 @@ void GridSearch(int grd[][H_SIZE], int det[][H_SIZE], int x, int y, int* size)
 	{
 		return;
 	}
-	if (det[y][x] == 1)		// do not engage the cell having already been visited...
+	if (det[y][x] == 1)		// do not consider the cell having already been visited...
 	{
 		return;			
 	}
