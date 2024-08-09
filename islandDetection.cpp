@@ -70,6 +70,7 @@ int main(void)
 	return 0;
 }
 
+// search the adjacent cells recursively to determine the size of the island
 void GridSearch(int grd[][H_SIZE], int det[][H_SIZE], int x, int y, int* size)
 {
 	// escape condition
