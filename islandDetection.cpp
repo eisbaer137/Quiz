@@ -78,7 +78,7 @@ void GridSearch(int grd[][H_SIZE], int det[][H_SIZE], int x, int y, int* size)
 	{
 		return;
 	}
-	if (det[y][x] == 1)		// do not consider the cell having already been visited...
+	if (det[y][x] == 1)		// do not consider the cell we have already visited...
 	{
 		return;			
 	}
